@@ -16,7 +16,13 @@ Inherited from its dependencies, this program comes with no warranty and you sho
 
 - Clone / Download this repository
 
-- Load the folder `.build` as an unpacked Chrome extention via `Chrome menu > More tools > Extensions > Load unpacked`, and you are all set (If you have a secret token for your `Aria2 RPC`, you may still need to config it in `AriaNg Settings` after the installation)
+- Load the folder `.build` as an unpacked Chrome extention via `Chrome menu > More tools > Extensions > Load unpacked`, and you are all set
+
+- [Optional] If you have a secret token for your `Aria2 RPC`, you may still need to config it after the installation
+  - For `AriaNg Settings`, click into the extension and select `AriaNg Settings` in the left panel
+  - For `AriaNg for Chrome Settings`, right-click the extension and click `Options`
+
+- [Optional] If you want to make the most out of the extention for resources from Baidu, [BaiduExporter](https://github.com/acgotaku/BaiduExporter/tree/master) is a good addition
 
 ## Build your own
 
