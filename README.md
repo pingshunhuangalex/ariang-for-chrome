@@ -18,7 +18,9 @@ Inherited from its dependencies, this program comes with no warranty and you sho
 
 - Load the folder `.build` as an unpacked Chrome extention via `Chrome menu > More tools > Extensions > Load unpacked`, and you are all set (If you have a secret token for your `Aria2 RPC`, you may still need to config it in `AriaNg Settings` after the installation)
 
-## Build your own (Advanced users only if you want to hack the code to add your own twist)
+## Build your own
+
+Advanced users only. If you want to hack the code to add your own twist, please continue reading...
 
 ### Prerequisites
 
