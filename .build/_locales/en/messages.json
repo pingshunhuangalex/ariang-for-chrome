@@ -1,0 +1,95 @@
+{
+   "appName": {
+      "message": "AriaNg for Chrome"
+   },
+   "description": {
+      "message": "Integrate AriaNg into Chrome in the form of an extension powered by Aria2"
+   },
+   "updated": {
+      "message": "Updated!"
+   },
+   "updatedDesc": {
+      "message": "AriaNg for Chrome updated to $version$ version",
+      "placeholders": {
+         "version": {
+            "content": "$1",
+            "example": "0.2.0"
+         }
+      }
+   },
+   "startDownload": {
+      "message": "Start downloading..."
+   },
+   "downloadSuccess": {
+      "message": "Imported into Aria2c!"
+   },
+   "downloadFailed": {
+      "message": "Download failed :("
+   },
+   "downloadFailedDesc": {
+      "message": "Aria2c import failed :("
+   },
+   "title": {
+      "message": "AriaNg for Chrome Settings"
+   },
+   "contextMenu": {
+      "message": "Context Menu"
+   },
+   "contextMenuDesc": {
+      "message": "Add download options to Chrome context menu"
+   },
+   "autoRename": {
+      "message": "Auto Rename"
+   },
+   "autoRenameDesc": {
+      "message": "An advanced feature. Please keep its default value (selected)"
+   },
+   "syncConfig": {
+      "message": "Configs Sync"
+   },
+   "syncConfigDesc": {
+      "message": "Sync configs to the cloud"
+   },
+   "interception": {
+      "message": "Download Interception"
+   },
+   "interceptionDesc": {
+      "message": "Files to be downloaded will be imported into Aria2c"
+   },
+   "fileSizeStr": {
+      "message": "File Size"
+   },
+   "unit": {
+      "message": "Unit"
+   },
+   "downloadPathStr": {
+      "message": "Download Path"
+   },
+   "downloadPathDesc": {
+      "message": "*Only support an absolute path"
+   },
+   "addRPC": {
+      "message": "Add RPC"
+   },
+   "removeRPC": {
+      "message": "Remove RPC"
+   },
+   "whitelistStr": {
+      "message": "Website Whitelist"
+   },
+   "blocklistStr": {
+      "message": "Website Blocklist"
+   },
+   "save": {
+      "message": "Save"
+   },
+   "saveSuccess": {
+      "message": "Configs updated!"
+   },
+   "reset": {
+      "message": "Reset"
+   },
+   "resetConfirm": {
+      "message": "Confirm reset?"
+   }
+}
