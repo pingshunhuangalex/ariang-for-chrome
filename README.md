@@ -2,11 +2,11 @@
 
 [![Aria2](https://img.shields.io/badge/Aria2-v1.35.0-lightgrey)](https://github.com/aria2/aria2) [![AriaNg Version](https://img.shields.io/badge/AriaNg-v1.2.2-blue)](https://github.com/mayswind/AriaNg) [![YAAW for Chrome Version](https://img.shields.io/badge/YAAW%20for%20Chrome-v0.2.3-orange)](https://github.com/acgotaku/YAAW-for-Chrome)
 
-A Chrome extension that bridges Aria2 and browser downloading experience with UI powered by AriaNg
+A Chrome extension that bridges [Aria2](https://github.com/aria2/aria2) and browser downloading experience with UI powered by [AriaNg](https://github.com/mayswind/AriaNg)
 
 While this project provides a user-friendly GUI that works seamlessly with the Chrome downloading experience, please note that all credits should go to the contributors from the original repositories.
 
-Apart from the features brought by the original program, this repository includes changes which glue those awesome tools together, [ensure it works in a chrome extension environment](https://github.com/mayswind/AriaNg/pull/189), improve the overall experience as a whole and ships it in a ready-to-use fashion for consumers who just want things to work without all the hassle.
+Apart from the features brought by the original program, this repository includes changes which glue those awesome tools together, [ensure it works in the Chrome extension environment](https://github.com/mayswind/AriaNg/pull/189), improve the overall experience as a whole and ships it in a ready-to-use fashion for consumers who just want things to work without all the hassle.
 
 Inherrited from its dependencies, this program comes with no warranty and you should use it at your own risk.
 
@@ -16,7 +16,7 @@ Inherrited from its dependencies, this program comes with no warranty and you sh
 
 - Clone / Download this repository
 
-- Load the folder `.build` as an unpacked Chrome extention via `Chrome menu > More tools > Extensions > Load unpacked`, and you are all set
+- Load the folder `.build` as an unpacked Chrome extention via `Chrome menu > More tools > Extensions > Load unpacked`, and you are all set (If you have a secret token for your `Aria2 RPC`, you may still need to config it in `AriaNg Settings` after the installation)
 
 ---
 
@@ -62,7 +62,7 @@ nodist npm match
 npm i -g yarn
 ```
 
-- Install Gulp
+- Install `Gulp`
 
 ```console
 choco install gulp-cli
@@ -70,7 +70,7 @@ choco install gulp-cli
 
 ### [AriaNg](https://github.com/mayswind/AriaNg)
 
-- [Optional] Update original repository
+- [Optional] Update the original repository
 
 ```console
 rm -rf node_modules/ && rm -rf dist/
@@ -90,7 +90,7 @@ gulp clean build
 
 ### [YAAW for Chrome](https://github.com/acgotaku/YAAW-for-Chrome)
 
-- [Optional] Update original repository
+- [Optional] Update the original repository
 
 ```console
 rm -rf node_modules/ && rm -rf dist/
