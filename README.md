@@ -8,7 +8,7 @@ While this project provides a user-friendly GUI that works seamlessly with the C
 
 Apart from the features brought by the original program, this repository includes changes which glue those awesome tools together, [ensure it works in the Chrome extension environment](https://github.com/mayswind/AriaNg/pull/189), improve the overall experience as a whole and ships it in a ready-to-use fashion for consumers who just want things to work without all the hassle.
 
-Inherrited from its dependencies, this program comes with no warranty and you should use it at your own risk.
+Inherited from its dependencies, this program comes with no warranty and you should use it at your own risk.
 
 ## How to use
 
