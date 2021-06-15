@@ -18,9 +18,7 @@ Inherited from its dependencies, this program comes with no warranty and you sho
 
 - Load the folder `.build` as an unpacked Chrome extention via `Chrome menu > More tools > Extensions > Load unpacked`, and you are all set (If you have a secret token for your `Aria2 RPC`, you may still need to config it in `AriaNg Settings` after the installation)
 
----
-
-## Build your own
+## Build your own (Advanced users only if you want to hack the code to add your own twist)
 
 ### Prerequisites
 
@@ -40,7 +38,9 @@ choco install nodist
 
 ```console
 nodist add 11
+```
 
+```console
 nodist add 14
 ```
 
@@ -74,7 +74,9 @@ choco install gulp-cli
 
 ```console
 rm -rf node_modules/ && rm -rf dist/
+```
 
+```console
 git stash && git pull && git stash pop
 ```
 
@@ -82,9 +84,13 @@ git stash && git pull && git stash pop
 
 ```console
 nodist env <11.xx.x>
+```
 
+```console
 npm ci
+```
 
+```console
 gulp clean build
 ```
 
@@ -94,7 +100,9 @@ gulp clean build
 
 ```console
 rm -rf node_modules/ && rm -rf dist/
+```
 
+```console
 git stash && git pull --recurse-submodules && git stash pop
 ```
 
@@ -102,9 +110,13 @@ git stash && git pull --recurse-submodules && git stash pop
 
 ```console
 nodist env <14.xx.x>
+```
 
+```console
 yarn
+```
 
+```console
 yarn build
 ```
 
