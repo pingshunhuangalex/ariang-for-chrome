@@ -3,13 +3,13 @@
       "message": "AriaNg for Chrome"
    },
    "description": {
-      "message": "AriaNg的chrome版本,支持右键添加到AriaNg进行下载"
+      "message": "以AriaNg为主题的Aria2在Chrome中的扩展，支持右键添加到Aria2进行下载"
    },
    "updated": {
-      "message": "更新"
+      "message": "更新完毕！"
    },
    "updatedDesc": {
-      "message": "AriaNg for Chrome更新到 $version$ 版本啦～",
+      "message": "AriaNg for Chrome更新到 $version$ 版本啦！",
       "placeholders": {
          "version": {
             "content": "$1",
@@ -18,16 +18,16 @@
       }
    },
    "startDownload": {
-      "message": "开始下载"
+      "message": "开始下载……"
    },
    "downloadSuccess": {
-      "message": "导出下载成功～"
+      "message": "导出下载成功！"
    },
    "downloadFailed": {
-      "message": "下载失败"
+      "message": "下载失败！"
    },
    "downloadFailedDesc": {
-      "message": "导出下载失败! QAQ"
+      "message": "导出下载失败！"
    },
    "title": {
       "message": "AriaNg for Chrome 设置"

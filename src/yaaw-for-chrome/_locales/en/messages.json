@@ -3,13 +3,13 @@
       "message": "AriaNg for Chrome"
    },
    "description": {
-      "message": "Integrate AriaNg into Chrome in the form of an extension powered by Aria2"
+      "message": "A Chrome extension that bridges Aria2 and browser downloading experience with UI powered by AriaNg"
    },
    "updated": {
-      "message": "Updated!"
+      "message": "Updated"
    },
    "updatedDesc": {
-      "message": "AriaNg for Chrome updated to $version$ version",
+      "message": "AriaNg for Chrome updated to $version$ version!",
       "placeholders": {
          "version": {
             "content": "$1",
@@ -24,10 +24,10 @@
       "message": "Imported into Aria2c!"
    },
    "downloadFailed": {
-      "message": "Download failed :("
+      "message": "Download failed!"
    },
    "downloadFailedDesc": {
-      "message": "Aria2c import failed :("
+      "message": "Aria2c import failed!"
    },
    "title": {
       "message": "AriaNg for Chrome Settings"
