@@ -1,10 +1,13 @@
 # AriaNg for Chrome
 
+<p align="left">
+  <a href="https://github.com/aria2/aria2"><img alt="Aria2 Version" src="https://img.shields.io/badge/Aria2-v1.36.0-lightgrey" /></a>
+  <a href="https://github.com/mayswind/AriaNg"><img alt="AriaNg Version" src="https://img.shields.io/badge/AriaNg-v1.2.3-blue" /></a>
+  <a href="https://github.com/acgotaku/YAAW-for-Chrome"><img alt="YAAW for Chrome Version" src="https://img.shields.io/badge/YAAW%20for%20Chrome-v0.2.3-orange" /></a>
+</p>
 <p align="right">
   <a href="https://github.com/pingshunhuangalex/ariang-for-chrome/releases/latest"><img alt="AriaNg for Chrome Version" src="https://img.shields.io/badge/AriaNg%20for%20Chrome-v1.0.0-brightgreen" /></a>
 </p>
-
-[![Aria2 Version](https://img.shields.io/badge/Aria2-v1.36.0-lightgrey)](https://github.com/aria2/aria2) [![AriaNg Version](https://img.shields.io/badge/AriaNg-v1.2.3-blue)](https://github.com/mayswind/AriaNg) [![YAAW for Chrome Version](https://img.shields.io/badge/YAAW%20for%20Chrome-v0.2.3-orange)](https://github.com/acgotaku/YAAW-for-Chrome)
 
 A Chrome extension that bridges [Aria2] and browser downloading experience with UI powered by [AriaNg]
 
