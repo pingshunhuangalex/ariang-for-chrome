@@ -1,6 +1,8 @@
 # AriaNg for Chrome
 
-<img align="right" alt="AriaNg for Chrome Version" src="https://img.shields.io/badge/AriaNg%20for%20Chrome-v1.0.0-brightgreen" />
+<p align="right">
+  <a href="https://github.com/pingshunhuangalex/ariang-for-chrome/releases/latest"><img alt="AriaNg for Chrome Version" src="https://img.shields.io/badge/AriaNg%20for%20Chrome-v1.0.0-brightgreen" /></a>
+</p>
 
 [![Aria2 Version](https://img.shields.io/badge/Aria2-v1.36.0-lightgrey)](https://github.com/aria2/aria2) [![AriaNg Version](https://img.shields.io/badge/AriaNg-v1.2.3-blue)](https://github.com/mayswind/AriaNg) [![YAAW for Chrome Version](https://img.shields.io/badge/YAAW%20for%20Chrome-v0.2.3-orange)](https://github.com/acgotaku/YAAW-for-Chrome)
 
@@ -32,7 +34,8 @@ Apart from the features brought by the original programs, this repository introd
 
 ## Build your own
 
-Advanced users only. If you want to hack the code to add your own twist, please clone / download this repository and continue reading...
+<details>
+  <summary>Advanced users only. If you want to hack the code to add your own twist, please clone / download this repository and continue reading...</summary>
 
 ### Prerequisites
 
@@ -143,6 +146,8 @@ npm i -g npx
 ### Assembly
 
 - Merge all built files in `ariang/dist` into `yaaw-for-chrome/dist/yaaw` (`index.html` should be the only file that needs to be replaced)
+
+</details>
 
 [Aria2]: https://github.com/aria2/aria2
 [AriaNg]: https://github.com/mayswind/AriaNg
