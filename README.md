@@ -4,7 +4,7 @@
 
 [![Aria2 Version](https://img.shields.io/badge/Aria2-v1.36.0-lightgrey)](https://github.com/aria2/aria2) [![AriaNg Version](https://img.shields.io/badge/AriaNg-v1.2.3-blue)](https://github.com/mayswind/AriaNg) [![YAAW for Chrome Version](https://img.shields.io/badge/YAAW%20for%20Chrome-v0.2.3-orange)](https://github.com/acgotaku/YAAW-for-Chrome)
 
-A Chrome extension that bridges [Aria2](https://github.com/aria2/aria2) and browser downloading experience with UI powered by [AriaNg](https://github.com/mayswind/AriaNg)
+A Chrome extension that bridges [Aria2] and browser downloading experience with UI powered by [AriaNg]
 
 While this project provides a user-friendly GUI that works seamlessly with the Chrome downloading experience, please note that all credits should go to the contributors from the original repositories (see badges above).
 
@@ -14,11 +14,11 @@ Apart from the features brought by the original programs, this repository introd
 
 ## How to use
 
-- Ensure you have [Aria2](https://github.com/aria2/aria2) installed and configured
+- Ensure you have [Aria2] installed and configured
 
-- Clone / Download this repository
+- Download `AriaNg-for-Chrome.rar` in [the latest release] and unzip it in the directory of your choice
 
-- Load the root folder `AriaNg-for-Chrome` as an unpacked Chrome extention via `Chrome menu > More tools > Extensions > Load unpacked`, and you are all set
+- Load the unzipped folder `AriaNg-for-Chrome` as an unpacked Chrome extention via `Chrome menu > More tools > Extensions > Load unpacked`, and you are all set
 
 - [Optional] If you have a secret token for your `Aria2 RPC`, you may still need to config it after the installation
   - For `AriaNg for Chrome Settings`, right-click the extension and click `Options`
@@ -26,21 +26,21 @@ Apart from the features brought by the original programs, this repository introd
   - For `AriaNg Settings`, click into the extension and select `AriaNg Settings` in the left panel
     - Websocket: `ws://localhost:6800/jsonrpc`
 
-- [Optional] If you want to make the most out of the extention for resources from Baidu, [网盘直链下载助手](https://github.com/syhyz1990/baiduyun) is a good addition
+- [Optional] If you want to make the most out of the extention for resources from Baidu, [网盘直链下载助手] is a good addition
 
 ---
 
 ## Build your own
 
-Advanced users only. If you want to hack the code to add your own twist, please continue reading...
+Advanced users only. If you want to hack the code to add your own twist, please clone / download this repository and continue reading...
 
 ### Prerequisites
 
-- Install [Chocolatey](https://chocolatey.org/install)
+- Install [Chocolatey]
 
-- Install [Aria2](https://github.com/aria2/aria2) and finish all configurations
+- Install [Aria2] and finish all configurations
 
-- Install [Nodist](https://github.com/nullivex/nodist) or any `Node` version manager of your choice
+- Install [Nodist] or any `Node` version manager of your choice
 
 ```console
 choco install nodist
@@ -82,7 +82,7 @@ npm i -g yarn
 choco install gulp-cli
 ```
 
-### [YAAW for Chrome](https://github.com/acgotaku/YAAW-for-Chrome)
+### [YAAW for Chrome]
 
 - [Optional] Update the original repository
 
@@ -108,7 +108,7 @@ yarn
 yarn build
 ```
 
-### [AriaNg](https://github.com/mayswind/AriaNg)
+### [AriaNg]
 
 - [Optional] Update the original repository
 
@@ -143,3 +143,11 @@ npm i -g npx
 ### Assembly
 
 - Merge all built files in `ariang/dist` into `yaaw-for-chrome/dist/yaaw` (`index.html` should be the only file that needs to be replaced)
+
+[Aria2]: https://github.com/aria2/aria2
+[AriaNg]: https://github.com/mayswind/AriaNg
+[the latest release]: https://github.com/pingshunhuangalex/ariang-for-chrome/releases/latest
+[网盘直链下载助手]: https://github.com/syhyz1990/baiduyun
+[Chocolatey]: https://chocolatey.org/install
+[Nodist]: https://github.com/nullivex/nodist
+[YAAW for Chrome]: https://github.com/acgotaku/YAAW-for-Chrome
