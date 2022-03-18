@@ -26,7 +26,7 @@ Apart from the features brought by the original programs, this repository introd
   - For `AriaNg Settings`, click into the extension and select `AriaNg Settings` in the left panel
     - Websocket: `ws://localhost:6800/jsonrpc`
 
-- [Optional] If you want to make the most out of the extention for resources from Baidu, [网盘直链下载助手] is a good addition
+- [Optional] If you want to make the most out of the extention for resources from `百度网盘`, `阿里云盘`, `天翼云盘` and `迅雷云盘`, [网盘直链下载助手] is a good addition
 
 ---
 
